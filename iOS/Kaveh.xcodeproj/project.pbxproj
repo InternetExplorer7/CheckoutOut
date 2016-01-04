@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCF3CE571C3971A000E39B99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF119DE31C38C34B0094AF72 /* Main.storyboard */; };
+		BCF3CE5D1C397B0500E39B99 /* SecondViewControllerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF3CE5C1C397B0500E39B99 /* SecondViewControllerTableViewController.m */; };
+		CF119DDC1C38C34B0094AF72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF119DDB1C38C34B0094AF72 /* main.m */; };
+		CF119DDF1C38C34B0094AF72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF119DDE1C38C34B0094AF72 /* AppDelegate.m */; };
+		CF119DE21C38C34B0094AF72 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF119DE11C38C34B0094AF72 /* ViewController.m */; };
+		CF119DE71C38C34B0094AF72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF119DE61C38C34B0094AF72 /* Assets.xcassets */; };
+		CF119DEA1C38C34B0094AF72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF119DE81C38C34B0094AF72 /* LaunchScreen.storyboard */; };
+		CF119DF21C38C4410094AF72 /* IDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF119DF11C38C4410094AF72 /* IDSDK.framework */; };
+		CF119DF51C38C4750094AF72 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CF119DF41C38C4750094AF72 /* libc++.tbd */; };
+		CF119DF71C38C47A0094AF72 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CF119DF61C38C47A0094AF72 /* libiconv.tbd */; };
+		CF119DF91C38C47F0094AF72 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF119DF81C38C47F0094AF72 /* AVFoundation.framework */; };
+		CF119DFB1C38C4840094AF72 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF119DFA1C38C4840094AF72 /* CoreMotion.framework */; };
+		CF119DFD1C38C48A0094AF72 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF119DFC1C38C48A0094AF72 /* CoreMedia.framework */; };
+		CF119DFF1C38C4F30094AF72 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CF119DFE1C38C4F30094AF72 /* libsqlite3.tbd */; };
+		CF119E011C38C4FB0094AF72 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF119E001C38C4FB0094AF72 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BCF3CE541C396F3500E39B99 /* Kaveh-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kaveh-Bridging-Header.h"; sourceTree = "<group>"; };
+		BCF3CE5B1C397B0500E39B99 /* SecondViewControllerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewControllerTableViewController.h; sourceTree = "<group>"; };
+		BCF3CE5C1C397B0500E39B99 /* SecondViewControllerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewControllerTableViewController.m; sourceTree = "<group>"; };
+		CF119DD71C38C34B0094AF72 /* Kaveh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kaveh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF119DDB1C38C34B0094AF72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF119DDD1C38C34B0094AF72 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF119DDE1C38C34B0094AF72 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF119DE01C38C34B0094AF72 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF119DE11C38C34B0094AF72 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF119DE41C38C34B0094AF72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF119DE61C38C34B0094AF72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF119DE91C38C34B0094AF72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF119DEB1C38C34B0094AF72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF119DF11C38C4410094AF72 /* IDSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IDSDK.framework; sourceTree = SOURCE_ROOT; };
+		CF119DF41C38C4750094AF72 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		CF119DF61C38C47A0094AF72 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		CF119DF81C38C47F0094AF72 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CF119DFA1C38C4840094AF72 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		CF119DFC1C38C48A0094AF72 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		CF119DFE1C38C4F30094AF72 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		CF119E001C38C4FB0094AF72 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF119DD41C38C34B0094AF72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF119E011C38C4FB0094AF72 /* CoreLocation.framework in Frameworks */,
+				CF119DFF1C38C4F30094AF72 /* libsqlite3.tbd in Frameworks */,
+				CF119DFD1C38C48A0094AF72 /* CoreMedia.framework in Frameworks */,
+				CF119DFB1C38C4840094AF72 /* CoreMotion.framework in Frameworks */,
+				CF119DF91C38C47F0094AF72 /* AVFoundation.framework in Frameworks */,
+				CF119DF71C38C47A0094AF72 /* libiconv.tbd in Frameworks */,
+				CF119DF51C38C4750094AF72 /* libc++.tbd in Frameworks */,
+				CF119DF21C38C4410094AF72 /* IDSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF119DCE1C38C34B0094AF72 = {
+			isa = PBXGroup;
+			children = (
+				CF119DF31C38C4690094AF72 /* Frameworks */,
+				CF119DD91C38C34B0094AF72 /* Kaveh */,
+				CF119DD81C38C34B0094AF72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF119DD81C38C34B0094AF72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF119DD71C38C34B0094AF72 /* Kaveh.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF119DD91C38C34B0094AF72 /* Kaveh */ = {
+			isa = PBXGroup;
+			children = (
+				CF119DDD1C38C34B0094AF72 /* AppDelegate.h */,
+				CF119DDE1C38C34B0094AF72 /* AppDelegate.m */,
+				CF119DE01C38C34B0094AF72 /* ViewController.h */,
+				CF119DE11C38C34B0094AF72 /* ViewController.m */,
+				CF119DE31C38C34B0094AF72 /* Main.storyboard */,
+				BCF3CE5B1C397B0500E39B99 /* SecondViewControllerTableViewController.h */,
+				BCF3CE5C1C397B0500E39B99 /* SecondViewControllerTableViewController.m */,
+				CF119DE61C38C34B0094AF72 /* Assets.xcassets */,
+				CF119DE81C38C34B0094AF72 /* LaunchScreen.storyboard */,
+				CF119DEB1C38C34B0094AF72 /* Info.plist */,
+				CF119DF11C38C4410094AF72 /* IDSDK.framework */,
+				CF119DDA1C38C34B0094AF72 /* Supporting Files */,
+				BCF3CE541C396F3500E39B99 /* Kaveh-Bridging-Header.h */,
+			);
+			path = Kaveh;
+			sourceTree = "<group>";
+		};
+		CF119DDA1C38C34B0094AF72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF119DDB1C38C34B0094AF72 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF119DF31C38C4690094AF72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF119E001C38C4FB0094AF72 /* CoreLocation.framework */,
+				CF119DFE1C38C4F30094AF72 /* libsqlite3.tbd */,
+				CF119DFC1C38C48A0094AF72 /* CoreMedia.framework */,
+				CF119DFA1C38C4840094AF72 /* CoreMotion.framework */,
+				CF119DF81C38C47F0094AF72 /* AVFoundation.framework */,
+				CF119DF61C38C47A0094AF72 /* libiconv.tbd */,
+				CF119DF41C38C4750094AF72 /* libc++.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF119DD61C38C34B0094AF72 /* Kaveh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF119DEE1C38C34B0094AF72 /* Build configuration list for PBXNativeTarget "Kaveh" */;
+			buildPhases = (
+				CF119DD31C38C34B0094AF72 /* Sources */,
+				CF119DD41C38C34B0094AF72 /* Frameworks */,
+				CF119DD51C38C34B0094AF72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kaveh;
+			productName = Kaveh;
+			productReference = CF119DD71C38C34B0094AF72 /* Kaveh.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF119DCF1C38C34B0094AF72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Dae Myung";
+				TargetAttributes = {
+					CF119DD61C38C34B0094AF72 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = BEJN5G52ZF;
+					};
+				};
+			};
+			buildConfigurationList = CF119DD21C38C34B0094AF72 /* Build configuration list for PBXProject "Kaveh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF119DCE1C38C34B0094AF72;
+			productRefGroup = CF119DD81C38C34B0094AF72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF119DD61C38C34B0094AF72 /* Kaveh */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF119DD51C38C34B0094AF72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF3CE571C3971A000E39B99 /* Main.storyboard in Resources */,
+				CF119DEA1C38C34B0094AF72 /* LaunchScreen.storyboard in Resources */,
+				CF119DE71C38C34B0094AF72 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF119DD31C38C34B0094AF72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF119DE21C38C34B0094AF72 /* ViewController.m in Sources */,
+				CF119DDF1C38C34B0094AF72 /* AppDelegate.m in Sources */,
+				BCF3CE5D1C397B0500E39B99 /* SecondViewControllerTableViewController.m in Sources */,
+				CF119DDC1C38C34B0094AF72 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF119DE31C38C34B0094AF72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF119DE41C38C34B0094AF72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF119DE81C38C34B0094AF72 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF119DE91C38C34B0094AF72 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF119DEC1C38C34B0094AF72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF119DED1C38C34B0094AF72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF119DEF1C38C34B0094AF72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Kaveh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.theidplatform.sample.kaveh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Kaveh/Kaveh-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF119DF01C38C34B0094AF72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Kaveh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.theidplatform.sample.kaveh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Kaveh/Kaveh-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF119DD21C38C34B0094AF72 /* Build configuration list for PBXProject "Kaveh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF119DEC1C38C34B0094AF72 /* Debug */,
+				CF119DED1C38C34B0094AF72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF119DEE1C38C34B0094AF72 /* Build configuration list for PBXNativeTarget "Kaveh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF119DEF1C38C34B0094AF72 /* Debug */,
+				CF119DF01C38C34B0094AF72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF119DCF1C38C34B0094AF72 /* Project object */;
+}
