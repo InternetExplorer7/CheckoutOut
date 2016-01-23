@@ -14,7 +14,7 @@ var appEnv = cfenv.getAppEnv();
 
 var routes = require('./routes');
 
-mongoose.connect("mongodb://localhost:27017/att"); // mongodb://kavehk:Kevin231@ds035723.mongolab.com:35723/pennapps
+mongoose.connect("mongodb://localhost:27017/att");
 
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }))
